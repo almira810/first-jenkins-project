@@ -61,7 +61,7 @@ test.describe('Test Group', () => {
     let programmingLanguage = page.locator("//select[@name='Languages']");
     await programmingLanguage.selectOption({label: "JavaScript"});
 
-     await page.waitForTimeout(3000);
+     //await page.waitForTimeout(3000);
 
   });
 

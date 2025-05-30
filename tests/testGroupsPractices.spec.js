@@ -5,7 +5,7 @@ test.describe(' @smoke Group', () => {
      await page.goto('https://example.com/');
    });
    test.afterEach( async({page}) => {
-    await page.waitForTimeout(3000);
+   // await page.waitForTimeout(3000);
    });
 
 
