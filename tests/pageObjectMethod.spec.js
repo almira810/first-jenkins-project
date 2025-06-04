@@ -13,7 +13,6 @@ test('Getting the current URL of the page', async ({page}) => {
     let actualURL = page.url();
     expect(actualURL).toBeTruthy();
 
-
 });
 
 

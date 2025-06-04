@@ -21,6 +21,7 @@ test.describe('Test Group1', () => {
 
   test('Getting the current URL of the page', async ({ page }) => {
     console.log(page.url());
+    
   });
 
 });
