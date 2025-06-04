@@ -21,6 +21,7 @@ test.describe("Test Group1", () => {
 
     test("Test Case 1", async ({ page }) => {
       console.log('Test Case 1 is expected');
+      
     });
 
     test("Test Case 2", async ({ page }) => {

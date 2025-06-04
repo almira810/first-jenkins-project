@@ -37,6 +37,7 @@ test.describe('TEstGroup', () => {
    let header = page.locator("//span[@class='h1y']");
    let actualText = await header.innerText();
    console.log(actualText);
+   
   })
 
   test('inputValue(): only works with <input>, <textarea>, <select>', async({page})=>{

@@ -8,6 +8,7 @@ test('Youtube Search', async ({ page }) => {
    let searchBox = page.locator("//input[@name='search_query']");
 
    await searchBox.click();
+   
 
    await searchBox.fill('Cydeo');
 
